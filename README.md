@@ -5,12 +5,12 @@ Inspired by Bert Hubert's Googerteller: https://github.com/berthubert/googertell
 
 Made and tested on Windows 11. This project took med around 45 minutes, so keep your expectations low.
 
-#Prerequisites
+# Prerequisites
 Wireshark with tshark https://www.wireshark.org/
 .NET 4.8
 
-#How to compile
+# How to compile
 Use your preferred C# compiler
 
-#How to run
+# How to run
 Start exe file, select interface and have fun.
