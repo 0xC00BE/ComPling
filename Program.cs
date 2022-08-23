@@ -43,6 +43,8 @@ namespace ComPling
             Console.Write("Select interface: ");
             string nic = Console.ReadLine();
 
+            Console.Clear();
+            Console.WriteLine("Monitoring network traffic. Use CTRL+C to exit...");
             StartProcess(nic, filter);
 
 
@@ -73,10 +75,7 @@ namespace ComPling
         }
         private static void Display(string data)
         {
-            Console.WriteLine(data);
-            if(Int32.TryParse(data,out int freq)){ 
-            Console.Beep(freq, freq);
-            }
+            Console.Beep(250, 100);
         }
     }
 }
