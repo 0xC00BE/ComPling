@@ -5,6 +5,8 @@ Inspired by Bert Hubert's Googerteller: https://github.com/berthubert/googertell
 
 Made and tested on Windows 11. This project took med around 45 minutes, so keep your expectations low.
 
+---> little bit better version with windows forms: https://github.com/0xC00BE/ComPlingGUI
+
 # Prerequisites
 Wireshark with tshark https://www.wireshark.org/
 
